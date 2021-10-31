@@ -74,6 +74,11 @@ public class ShopHandler {
         return -1;
     }
 
+    public boolean isHaveMessage(@NotNull Player p, int id) {
+        return new CustomConfig("data").getString("players." + p.getUniqueId() + ".HaveMessages." + id) != null;
+    }
+
+
     public void settingsMsg(MessageType type, @NotNull Player p, int slot) {
         CustomConfig data = new CustomConfig("data");
         if(new CustomConfig("data").getString("players." + p.getUniqueId() + ".HaveMessages." + getMsgId(type, slot)) == null) {
