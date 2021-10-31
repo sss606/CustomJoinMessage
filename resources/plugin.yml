@@ -1,0 +1,12 @@
+name: CustomJoinMessage
+main: ru.solomka.join.Main
+version: 1.0.0
+depend:
+  - Vault
+commands:
+  cmsg:
+    usage: /messages
+    description: open shop
+  creload:
+    usage: /creload
+    description: reload config

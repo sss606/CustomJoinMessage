@@ -1,0 +1,370 @@
+RegIds: # Все зарегистрированные сообщения, если какого-то сообщения(Айди) нет в списке - он работать не будет!
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+  - 10
+  - 11
+  - 12
+  - 13
+  - 14
+  - 15
+  - 16
+#==================
+# Доступные звуки:
+# "ENTITY_TNT_PRIMED"
+# "ENTITY_GHAST_SHOOT"
+# "ENTITY_FIREWORK_SHOOT"
+# "ENTITY_VILLAGER_YES"
+# "ENTITY_WITHER_DEATH"
+# "ENTITY_PLAYER_ATTACK_CRIT"
+# "ENTITY_SKELETON_DEATH"
+# "ITEM_CHORUS_FRUIT_TELEPORT"
+#==================
+# У DEFAULT/PREMIUM ОГРАНИЧЕНИЕ В 20 СООБШЕНИЙ У КАЖДОГО!
+#==================
+Messages:
+  Id:
+    DefaultMessage: "&c{player} &fприсоединился к сервер!" # Добавляется по дефолту, если у игрока нет ни одного купленного сообщения
+    #
+    1:
+      Slot: 11
+      Name: "&eСообщение #1 &8({purchased}&8)"
+      Lore:
+        - " "
+        - "&6Описание: "
+        - " &7>> &fИзменяет сообщение при входе: "
+        - "   &5<*> {message} "
+        - " "
+        - "&cИнформация: "
+        - " &7>> &fСтоимость:&a {cost}$"
+        - " "
+        - "&d&l| &fНажмите &d[ЛКМ]&f, чтобы купить сообщение "
+      JoinMessage: "&c{player} хай-1!"
+      #
+      Cost: 25
+      Type: DEFAULT
+      Sound:
+        Mode: false
+        Type: []
+    2:
+      Slot: 12
+      Name: "&eСообщение #2 &8({purchased}&8)"
+      Lore:
+        - " "
+        - "&6Описание: "
+        - " &7>> &fИзменяет сообщение при входе: "
+        - "   &5<*> {message} "
+        - " "
+        - "&cИнформация: "
+        - " &7>> &fСтоимость:&a {cost}$"
+        - " "
+        - "&d&l| &fНажмите &d[ЛКМ]&f, чтобы купить сообщение "
+      JoinMessage: "&c{player} хай-2!"
+      #
+      Cost: 25
+      Type: DEFAULT
+      Sound:
+        Mode: false
+        Type: []
+    3:
+      Slot: 13
+      Name: "&eСообщение #3 &8({purchased}&8)"
+      Lore:
+        - " "
+        - "&6Описание: "
+        - " &7>> &fИзменяет сообщение при входе: "
+        - "   &5<*> {message} "
+        - " "
+        - "&cИнформация: "
+        - " &7>> &fСтоимость:&a {cost}$"
+        - " "
+        - "&d&l| &fНажмите &d[ЛКМ]&f, чтобы купить сообщение "
+      JoinMessage: "&c{player} хай-3!"
+      #
+      Cost: 25
+      Type: DEFAULT
+      Sound:
+        Mode: false
+        Type: []
+    4:
+      Slot: 14
+      Name: "&eСообщение #4 &8({purchased}&8)"
+      Lore:
+        - " "
+        - "&6Описание: "
+        - " &7>> &fИзменяет сообщение при входе: "
+        - "   &5<*> {message} "
+        - " "
+        - "&cИнформация: "
+        - " &7>> &fСтоимость:&a {cost}$"
+        - " "
+        - "&d&l| &fНажмите &d[ЛКМ]&f, чтобы купить сообщение "
+      JoinMessage: "&c{player} хай-4!"
+      #
+      Cost: 25
+      Type: DEFAULT
+      Sound:
+        Mode: false
+        Type: []
+    5:
+      Slot: 15
+      Name: "&eСообщение #5 &8({purchased}&8)"
+      Lore:
+        - " "
+        - "&6Описание: "
+        - " &7>> &fИзменяет сообщение при входе: "
+        - "   &5<*> {message} "
+        - " "
+        - "&cИнформация: "
+        - " &7>> &fСтоимость:&a {cost}$"
+        - " "
+        - "&d&l| &fНажмите &d[ЛКМ]&f, чтобы купить сообщение "
+      JoinMessage: "&c{player} хай-5!"
+      #
+      Cost: 25
+      Type: DEFAULT
+      Sound:
+        Mode: false
+        Type: []
+    6:
+      Slot: 21
+      Name: "&eСообщение #6 &8({purchased}&8)"
+      Lore:
+        - " "
+        - "&6Описание: "
+        - " &7>> &fИзменяет сообщение при входе: "
+        - "   &5<*> {message} "
+        - " "
+        - "&cИнформация: "
+        - " &7>> &fСтоимость:&a {cost}$"
+        - " "
+        - "&d&l| &fНажмите &d[ЛКМ]&f, чтобы купить сообщение "
+      JoinMessage: "&c{player} хай-6!"
+      #
+      Cost: 25
+      Type: DEFAULT
+      Sound:
+        Mode: false
+        Type: []
+    7:
+      Slot: 22
+      Name: "&eСообщение #7 &8({purchased}&8)"
+      Lore:
+        - " "
+        - "&6Описание: "
+        - " &7>> &fИзменяет сообщение при входе: "
+        - "   &5<*> {message} "
+        - " "
+        - "&cИнформация: "
+        - " &7>> &fСтоимость:&a {cost}$"
+        - " "
+        - "&d&l| &fНажмите &d[ЛКМ]&f, чтобы купить сообщение "
+      JoinMessage: "&c{player} хай-7!"
+      #
+      Cost: 25
+      Type: DEFAULT
+      Sound:
+        Mode: false
+        Type: []
+    8:
+      Slot: 23
+      Name: "&eСообщение #8 &8({purchased}&8)"
+      Lore:
+        - " "
+        - "&6Описание: "
+        - " &7>> &fИзменяет сообщение при входе: "
+        - "   &5<*> {message} "
+        - " "
+        - "&cИнформация: "
+        - " &7>> &fСтоимость:&a {cost}$"
+        - " "
+        - "&d&l| &fНажмите &d[ЛКМ]&f, чтобы купить сообщение "
+      JoinMessage: "&c{player} хай-8!"
+      #
+      Cost: 25
+      Type: DEFAULT
+      Sound:
+        Mode: false
+        Type: []
+    9:
+      Slot: 11
+      Name: "&eСообщение #9 &8({purchased}&8)"
+      Lore:
+        - " "
+        - "&6Описание: "
+        - " &7>> &fИзменяет сообщение при входе: "
+        - "   &5<*> {message} "
+        - " &7>>&f Добавляет звук при входе: "
+        - "   &5<*> &f{sound} "
+        - " "
+        - "&cИнформация: "
+        - " &7>> &fСтоимость:&a {cost}$"
+        - " "
+        - "&d&l| &fНажмите &d[ЛКМ]&f, чтобы купить сообщение "
+      JoinMessage: "&c{player} хай-9!"
+      #
+      Cost: 40
+      Type: PREMIUM
+      Sound:
+        Mode: true
+        Type: ENTITY_TNT_PRIMED
+    10:
+      Slot: 12
+      Name: "&eСообщение #10 &8({purchased}&8)"
+      Lore:
+        - " "
+        - "&6Описание: "
+        - " &7>> &fИзменяет сообщение при входе: "
+        - "   &5<*> {message} "
+        - " &7>>&f Добавляет звук при входе: "
+        - "   &5<*> &f{sound} "
+        - " "
+        - "&cИнформация: "
+        - " &7>> &fСтоимость:&a {cost}$"
+        - " "
+        - "&d&l| &fНажмите &d[ЛКМ]&f, чтобы купить сообщение "
+      JoinMessage: "&c{player} хай-10!"
+      #
+      Cost: 40
+      Type: PREMIUM
+      Sound:
+        Mode: true
+        Type: ENTITY_GHAST_SHOOT
+    11:
+      Slot: 13
+      Name: "&eСообщение #11 &8({purchased}&8)"
+      Lore:
+        - " "
+        - "&6Описание: "
+        - " &7>> &fИзменяет сообщение при входе: "
+        - "   &5<*> {message} "
+        - " &7>>&f Добавляет звук при входе: "
+        - "   &5<*> &f{sound} "
+        - " "
+        - "&cИнформация: "
+        - " &7>> &fСтоимость:&a {cost}$"
+        - " "
+        - "&d&l| &fНажмите &d[ЛКМ]&f, чтобы купить сообщение "
+      JoinMessage: "&c{player} хай-11!"
+      #
+      Cost: 40
+      Type: PREMIUM
+      Sound:
+        Mode: true
+        Type: ENTITY_FIREWORK_SHOOT
+    12:
+      Slot: 14
+      Name: "&eСообщение #12 &8({purchased}&8)"
+      Lore:
+        - " "
+        - "&6Описание: "
+        - " &7>> &fИзменяет сообщение при входе: "
+        - "   &5<*> {message} "
+        - " &7>>&f Добавляет звук при входе: "
+        - "   &5<*> &f{sound} "
+        - " "
+        - "&cИнформация: "
+        - " &7>> &fСтоимость:&a {cost}$"
+        - " "
+        - "&d&l| &fНажмите &d[ЛКМ]&f, чтобы купить сообщение "
+      JoinMessage: "&c{player} хай-12!"
+      #
+      Cost: 40
+      Type: PREMIUM
+      Sound:
+        Mode: true
+        Type: ENTITY_VILLAGER_YES
+    13:
+      Slot: 15
+      Name: "&eСообщение #13 &8({purchased}&8)"
+      Lore:
+        - " "
+        - "&6Описание: "
+        - " &7>> &fИзменяет сообщение при входе: "
+        - "   &5<*> {message} "
+        - " &7>>&f Добавляет звук при входе: "
+        - "   &5<*> &f{sound} "
+        - " "
+        - "&cИнформация: "
+        - " &7>> &fСтоимость:&a {cost}$"
+        - " "
+        - "&d&l| &fНажмите &d[ЛКМ]&f, чтобы купить сообщение "
+      JoinMessage: "&c{player} хай-13!"
+      #
+      Cost: 40
+      Type: PREMIUM
+      Sound:
+        Mode: true
+        Type: ENTITY_WITHER_DEATH
+    14:
+      Slot: 21
+      Name: "&eСообщение #14 &8({purchased}&8)"
+      Lore:
+        - " "
+        - "&6Описание: "
+        - " &7>> &fИзменяет сообщение при входе: "
+        - "   &5<*> {message} "
+        - " &7>>&f Добавляет звук при входе: "
+        - "   &5<*> &f{sound} "
+        - " "
+        - "&cИнформация: "
+        - " &7>> &fСтоимость:&a {cost}$"
+        - " "
+        - "&d&l| &fНажмите &d[ЛКМ]&f, чтобы купить сообщение "
+      JoinMessage: "&c{player} хай-14!"
+      #
+      Cost: 40
+      Type: PREMIUM
+      Sound:
+        Mode: true
+        Type: ENTITY_PLAYER_ATTACK_CRIT
+    15:
+      Slot: 22
+      Name: "&eСообщение #15 &8({purchased}&8)"
+      Lore:
+        - " "
+        - "&6Описание: "
+        - " &7>> &fИзменяет сообщение при входе: "
+        - "   &5<*> {message} "
+        - " &7>>&f Добавляет звук при входе: "
+        - "   &5<*> &f{sound} "
+        - " "
+        - "&cИнформация: "
+        - " &7>> &fСтоимость:&a {cost}$"
+        - " "
+        - "&d&l| &fНажмите &d[ЛКМ]&f, чтобы купить сообщение "
+      JoinMessage: "&c{player} хай-15!"
+      #
+      Cost: 40
+      Type: PREMIUM
+      Sound:
+        Mode: true
+        Type: ENTITY_SKELETON_DEATH
+    16:
+      Slot: 23
+      Name: "&eСообщение #16 &8({purchased}&8)"
+      Lore:
+        - " "
+        - "&6Описание: "
+        - " &7>> &fИзменяет сообщение при входе: "
+        - "   &5<*> {message} "
+        - " &7>>&f Добавляет звук при входе: "
+        - "   &5<*> &f{sound} "
+        - " "
+        - "&cИнформация: "
+        - " &7>> &fСтоимость:&a {cost}$"
+        - " "
+        - "&d&l| &fНажмите &d[ЛКМ]&f, чтобы купить сообщение "
+      JoinMessage: "&c{player} хай-16!"
+      #
+      Cost: 40
+      Type: PREMIUM
+      Sound:
+        Mode: true
+        Type: ITEM_CHORUS_FRUIT_TELEPORT

@@ -1,0 +1,11 @@
+Messages:
+  setDefaultMessage: "&6&l[ВХОД] &fСистема установила вам &eстандартное сообщение&f на вход!\n&6&l[ВХОД] &fТак как не нашла ни одного &cкупленного&f сообщения. Принудительно устанавливаем режим &aMESSAGE... "
+  alreadyHaveMessage: "&6&l[ВХОД] &fУ вас уже &cприобретено&f данное сообщение!"
+  selectMode: "&6&l[ВХОД] &fВы &aустановили&f режим сообщений: {mode}"
+  setMessageJoin: "&6&l[ВХОД] &fВам установлено сообщение на вход: {message}"
+  onlyForPlayer: "&cThis command for only player!"
+  noHavePerm: "&cУ вас нет права &f{perm}&c!"
+  reloadCfg: "&aSuccess reload config"
+  successBuy: "&6&l[ВХОД] &fВы успешно &aприобрели&f сообщение &c#{msg_id}&f!"
+  noMoney: "&6&l[ВХОД] &fУ вас недостаточно &aXP&f для покупки!"
+  noHaveMessage: "&6&l[ВХОД] &fУ вас нет данного сообщения!"
