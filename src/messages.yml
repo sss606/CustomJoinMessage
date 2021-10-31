@@ -7,5 +7,5 @@ Messages:
   noHavePerm: "&cУ вас нет права &f{perm}&c!"
   reloadCfg: "&aSuccess reload config"
   successBuy: "&6&l[ВХОД] &fВы успешно &aприобрели&f сообщение &c#{msg_id}&f!"
-  noMoney: "&6&l[ВХОД] &fУ вас недостаточно &aXP&f для покупки!"
+  noMoney: "&6&l[ВХОД] &fУ вас недостаточно &a$&f для покупки!"
   noHaveMessage: "&6&l[ВХОД] &fУ вас нет данного сообщения!"
