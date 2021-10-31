@@ -34,7 +34,7 @@ public class ShopHandler {
         }
 
         if(!new VaultHandler().takeMoney(p, cost)) {
-            Messages.noMoney.replace("{exp}", String.valueOf(cost)).send(p);
+            Messages.noMoney.send(p);
             return;
         }
 
