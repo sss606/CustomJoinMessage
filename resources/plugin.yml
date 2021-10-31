@@ -5,7 +5,7 @@ depend:
   - Vault
 commands:
   cmsg:
-    usage: /messages
+    usage: /cmsg
     description: open shop
   creload:
     usage: /creload
